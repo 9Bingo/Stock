@@ -1,0 +1,11 @@
+# 忽略所有数据文件和模型参数
+*.csv
+*.npz
+*.pkl
+
+# 忽略 Python 缓存和可能存在的虚拟环境
+__pycache__/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
