@@ -8,4 +8,29 @@ __pycache__/
 .venv/
 venv/
 env/
-.ipynb_checkpoints/
+.ipynb_checkpoints/# 模型权重与检查点
+checkpoints/
+models/
+*.pth
+*.pt
+
+# 跑出来的日志和结果
+*.log
+outputs/
+curve.csv
+qlib_backtest_report.csv
+qlib_backtest_metrics.csv
+qlib_cumulative_returns.csv
+
+# 数据集
+*.npz
+*.csv
+sp500_origin/
+sp_seq*/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 操作系统文件
+.DS_Store
