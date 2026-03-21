@@ -1,0 +1,30 @@
+{
+    "seq_len": 30,
+    "label_horizon": 1,
+    "input_dim": 5,
+    "paths": {
+        "data_root": "/home/wuyuzhang/litianyuan/stock",
+        "model_save_dir": "./checkpoints",
+        "model_name_suffix": "v1"
+    },
+    "model": {
+        "d_model": 64,
+        "n_head": 4,
+        "num_embeddings": 256,
+        "embedding_dim": 64,
+        "num_encoder_layers": 2,
+        "num_decoder_layers": 2,
+        "dim_feedforward": 256,
+        "rotary_dim": 16
+    },
+    "vq": {
+        "commitment_cost": 0.25,
+        "ema_decay": 0.99,
+        "ema_eps": 1e-5
+    },
+    "train": {
+        "batch_size": 128,
+        "epochs": 50,
+        "lr": 0.001
+    }
+}
