@@ -200,7 +200,7 @@ class BacktestConfig:
 # 修改此处的配置来调整回测参数
 CONFIG = BacktestConfig(
     # ===== 修改这里的参数 =====
-    pred_path="curve_k256.csv",
+    pred_path="curve_k384.csv",
     market="us",
     topk=50,
     n_drop=5,
